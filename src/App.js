@@ -1,4 +1,4 @@
-import "./App.css";
+import "../node_modules/bootstrap/dist/css/bootstrap.css";
 import ContactBody from "./components/Contact/ContactBody";
 import Body from "./components/Home/Body";
 import MainNavigation from "./components/Home/MainNavigation";
@@ -10,8 +10,7 @@ function App() {
   return (
     <div style={{ width: "100%", height: "100%", }}>
      
-      <MainFooter/>
-    </div>
+<Body/>    </div>
   );
 }
 
