@@ -1,0 +1,30 @@
+.nav {
+    background-color: #1b1b1b;
+    padding: 12px 30px;
+}
+
+.nav .link {
+    color: white;
+    font-size: 30px;
+    margin: 0px 24px;
+}
+
+.nav .link-sm {
+    color: white;
+    font-size: 30px;
+    margin: 12px 0px;
+}
+
+.burger-btn {
+    display: none;
+}
+
+@media only screen and (max-width: 992px) {
+    .nav .link {
+        display: none;
+    }
+
+    .burger-btn {
+        display: block;
+    }
+}

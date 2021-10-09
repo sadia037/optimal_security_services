@@ -1,16 +1,18 @@
+import { useState } from "react";
 import "../node_modules/bootstrap/dist/css/bootstrap.css";
-import ContactBody from "./components/Contact/ContactBody";
 import Body from "./components/Home/Body";
-import MainNavigation from "./components/Home/MainNavigation";
-import Quote from "./components/QuoteModale/Quote";
-import Apply from "./components/ApplyModale/Apply";
-import Services from "./components/Services/Services";
-import MainFooter from "./components/Home/MainFooter";
+import Nav from "./components/nav";
+import Footer from "./components/footer";
 function App() {
+  const [i, setI] = useState(0), [isActive, setActive] = useState(false);
+
+  //Define router below the nav
   return (
     <div style={{ width: "100%", height: "100%", }}>
-     
-<Body/>    </div>
+      <Nav i={i} setI={setI} isActive={isActive} setActive={setActive} />
+      <Body />
+      <Footer />
+    </div>
   );
 }
 
