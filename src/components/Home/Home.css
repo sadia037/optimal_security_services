@@ -60,7 +60,7 @@
 }
 
 .slider2 {
-  background-image: url('../Images/photo-1485230405346-71acb9518d9c.jpg');
+  background-image: url('../Images/photo-1625193308802-590eafb2ea00.jpeg');
 }
 
 .slider3 {
@@ -72,6 +72,9 @@
   left: 30px;
   top: 50%;
   transform: translateY(-50%);
+  border: none;
+  background:  transparent;
+
 }
 
 .right-pos {
@@ -79,6 +82,8 @@
   right: 30px;
   top: 50%;
   transform: translateY(-50%);
+  border: none;
+  background:  transparent;
 }
 
 .slider .dot {
@@ -88,6 +93,7 @@
   background-color: white;
   margin: 12px;
   cursor: pointer;
+ 
 }
 
 .slider .active-dot {

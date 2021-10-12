@@ -1,16 +1,41 @@
 .apply-form-label {
     color: #1B1B1B;
     font-weight: 600;
+    margin-left: 5px;
   }
   .apply-form-input {
-    width: 40%;
-    height: 30px;
+    margin-top: 10px;
+    width: 340px;
+    height: 40px;
     background-color: white;
     border: none;
-    border-radius: none;
+    border-radius: 5px;
   }
+  .apply-form-input .placeholder{
+    color:'gray'
+  }
+  .custom-file-label{
+    color: #1B1B1B;
+    font-weight: 600;
+    margin-left: 5px;
+  }
+  .custom-file-upload {
+    margin-top: 10px;
+    border: none;
+    display: inline-block;
+    padding: 6px 12px;
+    cursor: pointer;
+    width: 340px;
+    height: 40px;
+    background-color: white;
+    border-radius: 5px;
+    color:gray;
+}
+ .input[type="file"] {
+display: none;
+}
   .apply-btn{
-      margin-right: auto;
+    margin-right: auto;
     margin-left: auto;
     background-color: #1b1b1b;
     color:#D5B964;

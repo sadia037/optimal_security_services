@@ -4,15 +4,34 @@
 }
 
 .nav .link {
-    color: white;
-    font-size: 30px;
-    margin: 0px 24px;
-}
+    color: #d5b964;
+    font-weight: 500;
+    font-size: 15pt;    margin: 0px 24px;
+    cursor: pointer;
+    padding: 12px 24px;
 
+
+}
+.nav .link:hover{
+    background-color:#d5b964; 
+    color: black;
+    border-radius: 6px;
+    padding: 12px 24px;
+}
+.nav .link-sm:hover{
+    background-color:#d5b964; 
+    color: black;
+    border-radius: 6px;
+    padding: 12px 24px;
+}
 .nav .link-sm {
-    color: white;
-    font-size: 30px;
+ 
     margin: 12px 0px;
+    color: #d5b964;
+    font-weight: 500;
+    font-size: 12pt;    
+    display: none;
+    cursor: pointer;
 }
 
 .burger-btn {
@@ -25,6 +44,12 @@
     }
 
     .burger-btn {
+        display: block;
+        padding: 10px;
+        background-color: #d5b964;;
+    }
+    .nav .link-sm {
+ 
         display: block;
     }
 }

@@ -1,21 +1,31 @@
 .quote-form-label {
-    color: #1B1B1B;
-    font-weight: 600;
-  }
-  .quote-form-input {
-    width: 40%;
-    height: 30px;
-    background-color: white;
-    border: none;
-    border-radius: none;
-  }
-  .quote-btn{
-      margin-right: auto;
-    margin-left: auto;
-    background-color: #1b1b1b;
-    color:#D5B964;
-    border: none;
-    width: 180px;
-    height: 40px;
-    border-radius: 14px;
-  }
+  color: #1b1b1b;
+  font-weight: 600;
+  margin-left: 5px;
+
+}
+.quote-form-input .placeholder {
+  color: "gray";
+}
+.quote-form-input {
+  margin-top: 10px;
+  width: 100%;
+  background-color: white;
+  border: none;
+  border-radius: 4px;
+}
+.quote-form-label input textarea {
+
+  color : #1b1b1b;
+
+}
+.quote-btn {
+  margin-right: auto;
+  margin-left: auto;
+  background-color: #1b1b1b;
+  color: #d5b964;
+  border: none;
+  width: 180px;
+  height: 40px;
+  border-radius: 14px;
+}
